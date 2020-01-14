@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48C06077A2AED0D76535CA24 /* Pods_Cely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27EACCBA781961C7A364C8C /* Pods_Cely.framework */; };
 		63ED248223B1141B00A44DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248123B1141B00A44DA5 /* AppDelegate.swift */; };
 		63ED248423B1141B00A44DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248323B1141B00A44DA5 /* SceneDelegate.swift */; };
-		63ED248623B1141B00A44DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248523B1141B00A44DA5 /* ViewController.swift */; };
+		63ED248623B1141B00A44DA5 /* InitialloginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248523B1141B00A44DA5 /* InitialloginVC.swift */; };
 		63ED248923B1141B00A44DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ED248723B1141B00A44DA5 /* Main.storyboard */; };
 		63ED248C23B1141B00A44DA5 /* Cely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248A23B1141B00A44DA5 /* Cely.xcdatamodeld */; };
 		63ED248E23B1141E00A44DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ED248D23B1141E00A44DA5 /* Assets.xcassets */; };
 		63ED249123B1141E00A44DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ED248F23B1141E00A44DA5 /* LaunchScreen.storyboard */; };
 		63ED249C23B1141E00A44DA5 /* CelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED249B23B1141E00A44DA5 /* CelyTests.swift */; };
 		63ED24A723B1141E00A44DA5 /* CelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED24A623B1141E00A44DA5 /* CelyUITests.swift */; };
+		63ED24B523CD601E00A44DA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63ED24B423CD601D00A44DA5 /* GoogleService-Info.plist */; };
+		86E513762429E775FAEA75A7 /* Pods_Cely_CelyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463A790FB729847A22800B4 /* Pods_Cely_CelyUITests.framework */; };
+		FA423DF1EE417A091647BB3A /* Pods_CelyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C261E696DB3A8D157CD7BE21 /* Pods_CelyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023285820BB970841581681F /* Pods-CelyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelyTests.debug.xcconfig"; path = "Target Support Files/Pods-CelyTests/Pods-CelyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		281AB85CEF530564884FE2FD /* Pods-Cely-CelyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely-CelyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1872F946710761978097E7 /* Pods-CelyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelyTests.release.xcconfig"; path = "Target Support Files/Pods-CelyTests/Pods-CelyTests.release.xcconfig"; sourceTree = "<group>"; };
+		466FFF1A4FD8E2FC522F46D7 /* Pods-Cely-CelyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely-CelyUITests.release.xcconfig"; path = "Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4755FC7EE8C6013397450E24 /* Pods-Cely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely.release.xcconfig"; path = "Target Support Files/Pods-Cely/Pods-Cely.release.xcconfig"; sourceTree = "<group>"; };
 		63ED247E23B1141B00A44DA5 /* Cely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ED248123B1141B00A44DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ED248323B1141B00A44DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63ED248523B1141B00A44DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63ED248523B1141B00A44DA5 /* InitialloginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialloginVC.swift; sourceTree = "<group>"; };
 		63ED248823B1141B00A44DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63ED248B23B1141B00A44DA5 /* Cely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cely.xcdatamodel; sourceTree = "<group>"; };
 		63ED248D23B1141E00A44DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		63ED24A223B1141E00A44DA5 /* CelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ED24A623B1141E00A44DA5 /* CelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelyUITests.swift; sourceTree = "<group>"; };
 		63ED24A823B1141E00A44DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ED24B423CD601D00A44DA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6463A790FB729847A22800B4 /* Pods_Cely_CelyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cely_CelyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6BED9B974423FA71F67C34 /* Pods-Cely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely.debug.xcconfig"; path = "Target Support Files/Pods-Cely/Pods-Cely.debug.xcconfig"; sourceTree = "<group>"; };
+		B27EACCBA781961C7A364C8C /* Pods_Cely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C261E696DB3A8D157CD7BE21 /* Pods_CelyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CelyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C06077A2AED0D76535CA24 /* Pods_Cely.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA423DF1EE417A091647BB3A /* Pods_CelyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E513762429E775FAEA75A7 /* Pods_Cely_CelyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42452A8992B1BE5297D1DF14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27EACCBA781961C7A364C8C /* Pods_Cely.framework */,
+				6463A790FB729847A22800B4 /* Pods_Cely_CelyUITests.framework */,
+				C261E696DB3A8D157CD7BE21 /* Pods_CelyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554ED016D6115B42AE296757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB6BED9B974423FA71F67C34 /* Pods-Cely.debug.xcconfig */,
+				4755FC7EE8C6013397450E24 /* Pods-Cely.release.xcconfig */,
+				281AB85CEF530564884FE2FD /* Pods-Cely-CelyUITests.debug.xcconfig */,
+				466FFF1A4FD8E2FC522F46D7 /* Pods-Cely-CelyUITests.release.xcconfig */,
+				023285820BB970841581681F /* Pods-CelyTests.debug.xcconfig */,
+				3F1872F946710761978097E7 /* Pods-CelyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		63ED247523B1141B00A44DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				63ED249A23B1141E00A44DA5 /* CelyTests */,
 				63ED24A523B1141E00A44DA5 /* CelyUITests */,
 				63ED247F23B1141B00A44DA5 /* Products */,
+				554ED016D6115B42AE296757 /* Pods */,
+				42452A8992B1BE5297D1DF14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +143,14 @@
 		63ED248023B1141B00A44DA5 /* Cely */ = {
 			isa = PBXGroup;
 			children = (
+				63ED24B923CE147100A44DA5 /* Model */,
+				63ED24B823CE145900A44DA5 /* ViewController */,
+				63ED24B723CE140B00A44DA5 /* View */,
 				63ED248123B1141B00A44DA5 /* AppDelegate.swift */,
 				63ED248323B1141B00A44DA5 /* SceneDelegate.swift */,
-				63ED248523B1141B00A44DA5 /* ViewController.swift */,
-				63ED248723B1141B00A44DA5 /* Main.storyboard */,
 				63ED248D23B1141E00A44DA5 /* Assets.xcassets */,
-				63ED248F23B1141E00A44DA5 /* LaunchScreen.storyboard */,
 				63ED249223B1141E00A44DA5 /* Info.plist */,
+				63ED24B423CD601D00A44DA5 /* GoogleService-Info.plist */,
 				63ED248A23B1141B00A44DA5 /* Cely.xcdatamodeld */,
 			);
 			path = Cely;
@@ -131,6 +174,30 @@
 			path = CelyUITests;
 			sourceTree = "<group>";
 		};
+		63ED24B723CE140B00A44DA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63ED248F23B1141E00A44DA5 /* LaunchScreen.storyboard */,
+				63ED248723B1141B00A44DA5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63ED24B823CE145900A44DA5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63ED248523B1141B00A44DA5 /* InitialloginVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		63ED24B923CE147100A44DA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63ED24AB23B1141E00A44DA5 /* Build configuration list for PBXNativeTarget "Cely" */;
 			buildPhases = (
+				08687A7F9F7E3FFF7E95A4F0 /* [CP] Check Pods Manifest.lock */,
 				63ED247A23B1141B00A44DA5 /* Sources */,
 				63ED247B23B1141B00A44DA5 /* Frameworks */,
 				63ED247C23B1141B00A44DA5 /* Resources */,
+				94847C98EAABAC716558BFAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63ED24AE23B1141E00A44DA5 /* Build configuration list for PBXNativeTarget "CelyTests" */;
 			buildPhases = (
+				E1D791D4B7E5A11EF0F1C915 /* [CP] Check Pods Manifest.lock */,
 				63ED249323B1141E00A44DA5 /* Sources */,
 				63ED249423B1141E00A44DA5 /* Frameworks */,
 				63ED249523B1141E00A44DA5 /* Resources */,
@@ -173,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63ED24B123B1141E00A44DA5 /* Build configuration list for PBXNativeTarget "CelyUITests" */;
 			buildPhases = (
+				E27C58FE068CE65AB4203012 /* [CP] Check Pods Manifest.lock */,
 				63ED249E23B1141E00A44DA5 /* Sources */,
 				63ED249F23B1141E00A44DA5 /* Frameworks */,
 				63ED24A023B1141E00A44DA5 /* Resources */,
+				AAB82A33E1CB2D891E3AE4B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63ED249123B1141E00A44DA5 /* LaunchScreen.storyboard in Resources */,
+				63ED24B523CD601E00A44DA5 /* GoogleService-Info.plist in Resources */,
 				63ED248E23B1141E00A44DA5 /* Assets.xcassets in Resources */,
 				63ED248923B1141B00A44DA5 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +330,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08687A7F9F7E3FFF7E95A4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94847C98EAABAC716558BFAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB82A33E1CB2D891E3AE4B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D791D4B7E5A11EF0F1C915 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CelyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27C58FE068CE65AB4203012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cely-CelyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63ED247A23B1141B00A44DA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ED248623B1141B00A44DA5 /* ViewController.swift in Sources */,
+				63ED248623B1141B00A44DA5 /* InitialloginVC.swift in Sources */,
 				63ED248223B1141B00A44DA5 /* AppDelegate.swift in Sources */,
 				63ED248C23B1141B00A44DA5 /* Cely.xcdatamodeld in Sources */,
 				63ED248423B1141B00A44DA5 /* SceneDelegate.swift in Sources */,
@@ -436,6 +612,7 @@
 		};
 		63ED24AC23B1141E00A44DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6BED9B974423FA71F67C34 /* Pods-Cely.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +631,7 @@
 		};
 		63ED24AD23B1141E00A44DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4755FC7EE8C6013397450E24 /* Pods-Cely.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +650,7 @@
 		};
 		63ED24AF23B1141E00A44DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023285820BB970841581681F /* Pods-CelyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +673,7 @@
 		};
 		63ED24B023B1141E00A44DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1872F946710761978097E7 /* Pods-CelyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +696,7 @@
 		};
 		63ED24B223B1141E00A44DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281AB85CEF530564884FE2FD /* Pods-Cely-CelyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +717,7 @@
 		};
 		63ED24B323B1141E00A44DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466FFF1A4FD8E2FC522F46D7 /* Pods-Cely-CelyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

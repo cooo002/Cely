@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
         return true
     }
 
@@ -79,4 +82,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
+///
+//필요한 정보?
+///1. 회원 가입 영역(성별, 이메일, 거주지, 프로필 사진,  생년월일,  이름, 비밀번호, 연락처, 닉네임(앱 내에서 활동하는 이름!!)) & 간편 로그인도 도입 할 거다!!! -> 9개
+///2. 방을 만들 때(런닝장소, 방 이름, 소개글, 모집인원 수, 현재 멤버들을 보여줄때 화면에 뿌려주는 정보(방장에 대한 정보도 포함),  ) -> 5개
+///3. 런닝코스 추천할 때 필요한 정보(런닝코스 제목, 런닝코스 주소, 런닝코스에 대한 설명, 런닝코스에 대한 사진, 런닝코스를 추천하는 사람에 대한 정보) -> 5개
+///4.
 
