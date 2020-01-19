@@ -59,6 +59,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.4.0):
     - GoogleUtilities/Logger
+  - IntroScreen (1.2.0)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -68,6 +69,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Analytics
+  - IntroScreen
   - Pastel
 
 SPEC REPOS:
@@ -82,6 +84,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - IntroScreen
     - nanopb
     - Pastel
 
@@ -96,9 +99,10 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
   GoogleDataTransportCCTSupport: 202d7cdf9c4a7d81a2bb7f7e7e1ba6faa421b1f2
   GoogleUtilities: 29bd0d8f850efbd28cff6d99e8b7da1f8d236bcf
+  IntroScreen: 063542ea822a0470346e53d866be1c3750cd82b3
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
 
-PODFILE CHECKSUM: d383164fcd8824442be670a1590d3b5a5b175909
+PODFILE CHECKSUM: 70fd41b09d6bac9edf0a4c19839349372f27ba20
 
 COCOAPODS: 1.8.4

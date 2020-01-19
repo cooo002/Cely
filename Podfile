@@ -14,7 +14,7 @@ target 'Cely' do
 
   # add To Design OpenSource 
    pod "Pastel"
-
+   pod 'IntroScreen'
 
 
 
