@@ -11,12 +11,15 @@
 		6354F54323D4477E00F7FA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354F54123D4477E00F7FA78 /* LaunchScreen.storyboard */; };
 		6354F55A23E0498D00F7FA78 /* FirstOpenPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */; };
 		6354F55C23EA769A00F7FA78 /* SelectLoginWayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */; };
+		6354F55E23EA9F0100F7FA78 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55D23EA9F0100F7FA78 /* PropertyList.swift */; };
+		6354F56023EAAB4600F7FA78 /* LogInByEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55F23EAAB4600F7FA78 /* LogInByEmailVC.swift */; };
+		6354F56223EAAC7800F7FA78 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F56123EAAC7800F7FA78 /* testVC.swift */; };
 		6369B7FD23D1A40C009FC9EC /* Instagram Text Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FA23D1A40B009FC9EC /* Instagram Text Logo@2x.png */; };
 		6369B7FE23D1A40C009FC9EC /* Instagram Text Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FB23D1A40C009FC9EC /* Instagram Text Logo@3x.png */; };
 		6369B7FF23D1A40C009FC9EC /* Instagram Text Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FC23D1A40C009FC9EC /* Instagram Text Logo.png */; };
 		63ED248223B1141B00A44DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248123B1141B00A44DA5 /* AppDelegate.swift */; };
 		63ED248423B1141B00A44DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248323B1141B00A44DA5 /* SceneDelegate.swift */; };
-		63ED248623B1141B00A44DA5 /* InitialloginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248523B1141B00A44DA5 /* InitialloginVC.swift */; };
+		63ED248623B1141B00A44DA5 /* SignUpByEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248523B1141B00A44DA5 /* SignUpByEmailVC.swift */; };
 		63ED248923B1141B00A44DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ED248723B1141B00A44DA5 /* Main.storyboard */; };
 		63ED248C23B1141B00A44DA5 /* Cely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63ED248A23B1141B00A44DA5 /* Cely.xcdatamodeld */; };
 		63ED248E23B1141E00A44DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ED248D23B1141E00A44DA5 /* Assets.xcassets */; };
@@ -53,13 +56,16 @@
 		6354F54223D4477E00F7FA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOpenPageVC.swift; sourceTree = "<group>"; };
 		6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginWayVC.swift; sourceTree = "<group>"; };
+		6354F55D23EA9F0100F7FA78 /* PropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
+		6354F55F23EAAB4600F7FA78 /* LogInByEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInByEmailVC.swift; sourceTree = "<group>"; };
+		6354F56123EAAC7800F7FA78 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
 		6369B7FA23D1A40B009FC9EC /* Instagram Text Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo@2x.png"; sourceTree = "<group>"; };
 		6369B7FB23D1A40C009FC9EC /* Instagram Text Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo@3x.png"; sourceTree = "<group>"; };
 		6369B7FC23D1A40C009FC9EC /* Instagram Text Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo.png"; sourceTree = "<group>"; };
 		63ED247E23B1141B00A44DA5 /* Cely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ED248123B1141B00A44DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ED248323B1141B00A44DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63ED248523B1141B00A44DA5 /* InitialloginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialloginVC.swift; sourceTree = "<group>"; };
+		63ED248523B1141B00A44DA5 /* SignUpByEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpByEmailVC.swift; sourceTree = "<group>"; };
 		63ED248823B1141B00A44DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63ED248B23B1141B00A44DA5 /* Cely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cely.xcdatamodel; sourceTree = "<group>"; };
 		63ED248D23B1141E00A44DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -217,7 +223,9 @@
 			children = (
 				6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */,
 				6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */,
-				63ED248523B1141B00A44DA5 /* InitialloginVC.swift */,
+				63ED248523B1141B00A44DA5 /* SignUpByEmailVC.swift */,
+				6354F55F23EAAB4600F7FA78 /* LogInByEmailVC.swift */,
+				6354F56123EAAC7800F7FA78 /* testVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 		63ED24B923CE147100A44DA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6354F55D23EA9F0100F7FA78 /* PropertyList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -510,10 +519,13 @@
 			files = (
 				6354F55C23EA769A00F7FA78 /* SelectLoginWayVC.swift in Sources */,
 				6354F55A23E0498D00F7FA78 /* FirstOpenPageVC.swift in Sources */,
-				63ED248623B1141B00A44DA5 /* InitialloginVC.swift in Sources */,
+				6354F56223EAAC7800F7FA78 /* testVC.swift in Sources */,
+				63ED248623B1141B00A44DA5 /* SignUpByEmailVC.swift in Sources */,
 				63ED248223B1141B00A44DA5 /* AppDelegate.swift in Sources */,
+				6354F56023EAAB4600F7FA78 /* LogInByEmailVC.swift in Sources */,
 				63ED248C23B1141B00A44DA5 /* Cely.xcdatamodeld in Sources */,
 				63ED248423B1141B00A44DA5 /* SceneDelegate.swift in Sources */,
+				6354F55E23EA9F0100F7FA78 /* PropertyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

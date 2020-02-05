@@ -9,15 +9,25 @@
 import Foundation
 import UIKit
 import Pastel
-
+import Firebase
+import FirebaseUI
+import GoogleSignIn
 
 
 class SelectLoginWayVC: UIViewController {
-
+    
+    @IBOutlet weak var signInButton: GIDSignInButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         viewBackgroundColor()
+        
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
+        // TODO(developer) Configure the sign-in button look/feel
+        // ...
                 
     }
 
@@ -56,5 +66,17 @@ extension SelectLoginWayVC{
         self.view.endEditing(true)
         return true
     }
+}
+
+extension SelectLoginWayVC: GIDSignInDelegate{
+    
+//Check: GIDSignINDelegate프로토콜 때문에 어쩔 수 없이 추가된 메소드이다. 실질적인 구글인증 로직을 수행하는 메소드는
+//      AppDelegate클래스에 있는 sign메소드가 수행한다. 
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        
+    }
+    
+    
+    
 }
 

@@ -9,15 +9,21 @@
 import UIKit
 import CoreData
 import Firebase
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
+    
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
+        GIDSignIn.sharedInstance().delegate = self
+        
         
 
         return true
@@ -84,10 +90,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-///
-//필요한 정보?
-///1. 회원 가입 영역(성별, 이메일, 거주지, 프로필 사진,  생년월일,  이름, 비밀번호, 연락처, 닉네임(앱 내에서 활동하는 이름!!)) & 간편 로그인도 도입 할 거다!!! -> 9개
-///2. 방을 만들 때(런닝장소, 방 이름, 소개글, 모집인원 수, 현재 멤버들을 보여줄때 화면에 뿌려주는 정보(방장에 대한 정보도 포함),  ) -> 5개
-///3. 런닝코스 추천할 때 필요한 정보(런닝코스 제목, 런닝코스 주소, 런닝코스에 대한 설명, 런닝코스에 대한 사진, 런닝코스를 추천하는 사람에 대한 정보) -> 5개
-///4.
+
+//Check:구글인증 관련된 로직들을 모아두었다.
+extension AppDelegate{
+    
+    @available(iOS 9.0, *)
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any])
+      -> Bool {    return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+    //Check: ios8이전에 버전에서 구글인증을 사용하려면 이 메소드를 구현해야한다.
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {    return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+    
+//Check: 실질적이 구글인증이 진행되는 메소드이다.
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
+      // ...
+        let userDefault = UserDefaults.standard
+      if let error = error {
+        // ...
+        return
+      }
+
+      guard let authentication = user.authentication else { return }
+      let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                        accessToken: authentication.accessToken)
+      // ...
+        Auth.auth().signIn(with: credential) { (authResult, error) in
+          if let error = error {
+            // ...
+            return
+          }
+          // User is signed in
+            userDefault.set(true, forKey: "logInStatus")
+            userDefault.synchronize()
+            
+          // ...
+        }
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
+        // Perform any operations when the user disconnects from app here.
+        // ...
+    }
+    
+}
 
