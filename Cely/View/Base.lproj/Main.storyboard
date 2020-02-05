@@ -15,38 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jO7-St-0Mn" customClass="GIDSignInButton">
-                                <rect key="frame" x="92" y="214" width="230" height="48"/>
-=======
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jO7-St-0Mn" customClass="GIDSignInButton">
-                                <rect key="frame" x="87" y="214" width="240" height="48"/>
->>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-tl-VeM" customClass="GIDSignInButton">
+                                <rect key="frame" x="92" y="269" width="230" height="48"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="Qvh-Ml-mTN"/>
-                                    <constraint firstAttribute="width" constant="230" id="l5V-o3-544"/>
+                                    <constraint firstAttribute="height" constant="48" id="Mfu-v4-KcF"/>
+                                    <constraint firstAttribute="width" constant="230" id="fB7-4p-UGN"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-<<<<<<< HEAD
-                            <constraint firstItem="jO7-St-0Mn" firstAttribute="centerX" secondItem="uQ9-nH-Qrl" secondAttribute="centerX" id="4Fi-dK-F60"/>
-=======
->>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
-                            <constraint firstItem="jO7-St-0Mn" firstAttribute="top" secondItem="eQM-TC-Dhf" secondAttribute="top" constant="170" id="qMb-Ow-f1b"/>
+                            <constraint firstItem="xTe-tl-VeM" firstAttribute="centerX" secondItem="uQ9-nH-Qrl" secondAttribute="centerX" id="8UL-iG-eDr"/>
+                            <constraint firstItem="xTe-tl-VeM" firstAttribute="top" secondItem="eQM-TC-Dhf" secondAttribute="top" constant="225" id="Sjl-B3-Imt"/>
+                            <constraint firstAttribute="top" secondItem="eQM-TC-Dhf" secondAttribute="top" constant="170" id="qMb-Ow-f1b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eQM-TC-Dhf"/>
                     </view>
                     <navigationItem key="navigationItem" id="gU4-SA-gsr"/>
-                    <connections>
-                        <outlet property="signInButton" destination="jO7-St-0Mn" id="tT8-zY-2Fy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mIc-3M-9dV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1322" y="-2000"/>
+            <point key="canvasLocation" x="1321.7391304347827" y="-2000.2232142857142"/>
         </scene>
         <!--Log In By EmailVC-->
         <scene sceneID="4x5-fV-LiX">
