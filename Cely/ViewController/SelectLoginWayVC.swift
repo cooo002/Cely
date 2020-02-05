@@ -12,8 +12,6 @@ import Pastel
 import Firebase
 import FirebaseUI
 import GoogleSignIn
-import FBSDKCoreKit
-import FBSDKLoginKit
 
 
 
@@ -74,7 +72,7 @@ extension SelectLoginWayVC{
 extension SelectLoginWayVC: GIDSignInDelegate{
     
 //Check: GIDSignINDelegate프로토콜 때문에 어쩔 수 없이 추가된 메소드이다. 실질적인 구글인증 로직을 수행하는 메소드는
-//      AppDelegate클래스에 있는 sign메소드가 수행한다.
+
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         
     }

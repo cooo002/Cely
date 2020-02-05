@@ -10,9 +10,13 @@ import UIKit
 import CoreData
 import Firebase
 import GoogleSignIn
+<<<<<<< HEAD
 
 
 
+=======
+
+>>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     
@@ -26,9 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
         
+<<<<<<< HEAD
 
         
         
+=======
+>>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
         
 
         return true
@@ -141,10 +148,13 @@ extension AppDelegate{
     }
     
 }
+<<<<<<< HEAD
 
 
 //Check:faceBook로그인 관련 메소드
 extension AppDelegate{
 
 }
+=======
+>>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
 
