@@ -14,12 +14,7 @@
 		6354F55E23EA9F0100F7FA78 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55D23EA9F0100F7FA78 /* PropertyList.swift */; };
 		6354F56023EAAB4600F7FA78 /* LogInByEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55F23EAAB4600F7FA78 /* LogInByEmailVC.swift */; };
 		6354F56223EAAC7800F7FA78 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F56123EAAC7800F7FA78 /* testVC.swift */; };
-<<<<<<< HEAD
-		6354F56523EB339900F7FA78 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6354F56423EB339900F7FA78 /* FacebookCore */; };
-		6354F56723EB339900F7FA78 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 6354F56623EB339900F7FA78 /* FacebookLogin */; };
-		6354F56923EB339900F7FA78 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 6354F56823EB339900F7FA78 /* FacebookShare */; };
-=======
->>>>>>> a949296f8848fcbf7f5d0c4d9b86a92677e55e7e
+
 		6369B7FD23D1A40C009FC9EC /* Instagram Text Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FA23D1A40B009FC9EC /* Instagram Text Logo@2x.png */; };
 		6369B7FE23D1A40C009FC9EC /* Instagram Text Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FB23D1A40C009FC9EC /* Instagram Text Logo@3x.png */; };
 		6369B7FF23D1A40C009FC9EC /* Instagram Text Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FC23D1A40C009FC9EC /* Instagram Text Logo.png */; };
