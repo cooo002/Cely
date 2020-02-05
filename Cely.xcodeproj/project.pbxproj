@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		48C06077A2AED0D76535CA24 /* Pods_Cely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27EACCBA781961C7A364C8C /* Pods_Cely.framework */; };
 		6354F54323D4477E00F7FA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354F54123D4477E00F7FA78 /* LaunchScreen.storyboard */; };
-		6354F54723D45D0F00F7FA78 /* FirstOpenAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F54623D45D0F00F7FA78 /* FirstOpenAppVC.swift */; };
+		6354F55A23E0498D00F7FA78 /* FirstOpenPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */; };
+		6354F55C23EA769A00F7FA78 /* SelectLoginWayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */; };
 		6369B7FD23D1A40C009FC9EC /* Instagram Text Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FA23D1A40B009FC9EC /* Instagram Text Logo@2x.png */; };
 		6369B7FE23D1A40C009FC9EC /* Instagram Text Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FB23D1A40C009FC9EC /* Instagram Text Logo@3x.png */; };
 		6369B7FF23D1A40C009FC9EC /* Instagram Text Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369B7FC23D1A40C009FC9EC /* Instagram Text Logo.png */; };
@@ -50,7 +51,8 @@
 		466FFF1A4FD8E2FC522F46D7 /* Pods-Cely-CelyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely-CelyUITests.release.xcconfig"; path = "Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4755FC7EE8C6013397450E24 /* Pods-Cely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cely.release.xcconfig"; path = "Target Support Files/Pods-Cely/Pods-Cely.release.xcconfig"; sourceTree = "<group>"; };
 		6354F54223D4477E00F7FA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6354F54623D45D0F00F7FA78 /* FirstOpenAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOpenAppVC.swift; sourceTree = "<group>"; };
+		6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOpenPageVC.swift; sourceTree = "<group>"; };
+		6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginWayVC.swift; sourceTree = "<group>"; };
 		6369B7FA23D1A40B009FC9EC /* Instagram Text Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo@2x.png"; sourceTree = "<group>"; };
 		6369B7FB23D1A40C009FC9EC /* Instagram Text Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo@3x.png"; sourceTree = "<group>"; };
 		6369B7FC23D1A40C009FC9EC /* Instagram Text Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instagram Text Logo.png"; sourceTree = "<group>"; };
@@ -213,8 +215,9 @@
 		63ED24B823CE145900A44DA5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6354F55923E0498D00F7FA78 /* FirstOpenPageVC.swift */,
+				6354F55B23EA769A00F7FA78 /* SelectLoginWayVC.swift */,
 				63ED248523B1141B00A44DA5 /* InitialloginVC.swift */,
-				6354F54623D45D0F00F7FA78 /* FirstOpenAppVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				63ED247B23B1141B00A44DA5 /* Frameworks */,
 				63ED247C23B1141B00A44DA5 /* Resources */,
 				94847C98EAABAC716558BFAD /* [CP] Embed Pods Frameworks */,
+				1387A62234ADE3E32B8DE17E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,6 +280,7 @@
 				63ED249F23B1141E00A44DA5 /* Frameworks */,
 				63ED24A023B1141E00A44DA5 /* Resources */,
 				AAB82A33E1CB2D891E3AE4B3 /* [CP] Embed Pods Frameworks */,
+				FC00B4EC9E3BC6C1AA710888 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,6 +389,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1387A62234ADE3E32B8DE17E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cely/Pods-Cely-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		94847C98EAABAC716558BFAD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +484,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FC00B4EC9E3BC6C1AA710888 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cely-CelyUITests/Pods-Cely-CelyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -469,8 +508,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6354F55C23EA769A00F7FA78 /* SelectLoginWayVC.swift in Sources */,
+				6354F55A23E0498D00F7FA78 /* FirstOpenPageVC.swift in Sources */,
 				63ED248623B1141B00A44DA5 /* InitialloginVC.swift in Sources */,
-				6354F54723D45D0F00F7FA78 /* FirstOpenAppVC.swift in Sources */,
 				63ED248223B1141B00A44DA5 /* AppDelegate.swift in Sources */,
 				63ED248C23B1141B00A44DA5 /* Cely.xcdatamodeld in Sources */,
 				63ED248423B1141B00A44DA5 /* SceneDelegate.swift in Sources */,
