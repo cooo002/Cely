@@ -10,27 +10,29 @@
 
 import UIKit
 import Pastel
+import Firebase
 
-class InitialloginVC: UIViewController {
-
+class SignUpByEmailVC: UIViewController {
+    
+    
     //ToDo:이메일 변수
-    @IBOutlet weak var email: NSLayoutConstraint!
+    @IBOutlet weak var email: UITextField!
     
     //ToDo:비밀변호 변수
-    @IBOutlet weak var password: NSLayoutConstraint!
     
+    @IBOutlet weak var password: UITextField!
     //ToDo:로그인 버튼(이메일 로그인 버튼이다.)
-    @IBAction func logIn(_ sender: Any) {
+
+    @IBAction func signUp(_ sender: Any) {
+        signUpByEmail()
+        
     }
-    
-    //ToDo:처음 방문해서 회원가입 페이지로 이동하는 액션(회원가입 버튼액션)
-    @IBAction func signUpViewMovingAction(_ sender: Any) {
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         viewBackgroundColor()
+        
+        
         
         
     }
@@ -39,7 +41,7 @@ class InitialloginVC: UIViewController {
 }
 
 // ViewCustom & RemovingKeyBoard
-extension InitialloginVC{
+extension SignUpByEmailVC{
     
 
     
@@ -73,3 +75,23 @@ extension InitialloginVC{
     }
 }
 
+//ToDo:회원가입 관련된 부분의 로직이 작성되어있는 부분이다.
+extension SignUpByEmailVC{
+//
+    private func signUpByEmail(){
+        let userDefault = UserDefaults.standard
+        guard let email = self.email.text, let password = self.password.text else{
+            userDefault.set(false, forKey: "logInStatus")
+            userDefault.synchronize()
+            return print("회원가입 실패")
+        }
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+          // ...
+            userDefault.set(true, forKey: "logInStatus")
+            userDefault.synchronize()
+     
+        }
+
+    }
+    
+}

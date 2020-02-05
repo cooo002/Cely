@@ -15,7 +15,7 @@ target 'Cely' do
 
    pod 'FirebaseUI/Google'
    pod 'FirebaseUI/Facebook'
-
+   pod 'GoogleSignIn'
 
 
 
